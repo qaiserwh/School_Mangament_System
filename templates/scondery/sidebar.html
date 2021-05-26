@@ -1,0 +1,15 @@
+ <!-- Sidebar menu-->
+ <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+ <aside class="app-sidebar">
+  <div class="app-sidebar__user"><img src="media/photos/ssd.png" width="80" alt="User Image">
+  </div>
+  <ul class="app-menu">
+    <li><a class="app-menu__item active" href="{% url 'index' %}"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Home</span></a></li>
+    <li><a class="app-menu__item active" href="{% url 'teacherdata' %}"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Teacher Data Tables</span></a></li>
+    <li><a class="app-menu__item active" href="{% url 'studentdata' %}"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Student Data Tables</span></a></li>
+    <li><a class="app-menu__item active" href="{% url 'admin/' %}"><i class="app-menu__icon fa fa-user-circle-o"></i><span class="app-menu__label">Admin Management</span></a></li>
+    <li><a class="app-menu__item active" href="{% url 'login' %}"><i class="app-menu__icon fa fa-sign-in fa-lg fa-fw"></i><span class="app-menu__label">Logout</span></a></li>
+   </ul>
+</aside>
+ <main class="app-content">
+   <div class="app-title">
